@@ -1,0 +1,26 @@
+{
+  "name": "Santhosh-WebRTC",
+  "version": "0.0.0",
+  "description": "JSChannel Demos deployed to Heroku",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SanthoshMR/WebRTCHeroku.git"
+  },
+  "keywords": [
+    "WebRTC",
+    "JSChannel-October",
+    "Santhosh"
+  ],
+  "author": "Santhosh Reddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanthoshMR/WebRTCHeroku/issues"
+  },
+  "homepage": "https://github.com/SanthoshMR/WebRTCHeroku",
+  "dependencies": {
+    "node-static": "^0.7.6",
+    "socket.io": "^1.1.0"
+  }
+}
