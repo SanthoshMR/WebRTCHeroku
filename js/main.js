@@ -49,7 +49,7 @@ var sdpConstraints = {};
 var room = prompt("Enter room name: ");
 
 // Connect to signaling server.
-var socket = io.connect("http://localhost:2014");
+var socket = io.connect("http://jsc-webrtc-santhosh.herokuapp.com/");
 
 // Send create or join to signaling server.
 if (room !== '') {
