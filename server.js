@@ -1,9 +1,10 @@
+var port = process.env.PORT || 2014;
 var static = require('node-static');
 var http = require('http');
 var file = new(static.Server)();
 var app = http.createServer(function (req, res) {
   file.serve(req, res);
-}).listen(2014);
+}).listen(port);
 
 
 // Ignore this until 3....
